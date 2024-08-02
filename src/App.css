@@ -80,7 +80,7 @@ h2 {
 }
 
 button {
-  background: #007BFF;
+  background: #d22222;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -90,7 +90,7 @@ button {
 }
 
 button:hover {
-  background: #0056b3;
+  background: #d22222;
 }
 
 @media (max-width: 600px) {
