@@ -1,38 +1,116 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
   text-align: center;
+  background-image: url('./bckg1.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+  text-shadow: 1px 1px 2px #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 2em;
+  margin: 20px 0;
+  color: #444;
+  text-shadow: 1px 1px 2px #eee;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.quiz-section {
+  margin-bottom: 30px;
+}
+
+.quiz-question {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.quiz-question h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.quiz-question ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quiz-question ul li {
+  background: #e0e0e0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.quiz-question ul li:hover {
+  background: #d0d0d0;
+}
+
+.explanation {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-left: 4px solid #007BFF;
+  border-radius: 5px;
+}
+
+.explanation strong {
+  color: #007BFF;
+}
+
+button {
+  background: #007BFF;
   color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 600px) {
+  .app {
+      padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+      font-size: 2em;
+  }
+
+  h2 {
+      font-size: 1.5em;
+  }
+
+  .quiz-question h3 {
+      font-size: 1.2em;
+  }
+
+  button {
+      font-size: 0.9em;
   }
 }
