@@ -29,14 +29,14 @@ const questions = {
     },
     {
       question: "When did India get independence?",
-      options: ["1947"],
+      options: ["1952","1946","1947","1948"],
       answer: "1947",
       explanation: "*** Write Explanation here ***"
     },
     {
       question: "What do the three colors on a country’s flag stand for?",
       options: ["Sacrifice (Orange)", "Peace (White)", "Prosperity (Green)"],
-      answer: "Sacrifice (Orange), Peace (White), Prosperity (Green)",
+      answer: ["Sacrifice (Orange)", "Peace (White)", "Prosperity (Green)"],
       explanation: "The colors on the Indian flag represent sacrifice (orange), peace (white), and prosperity (green)."
     },
     {
