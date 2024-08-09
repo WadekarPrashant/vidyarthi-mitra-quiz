@@ -36,7 +36,7 @@ const questions = {
     {
       question: "What do the three colors on a country’s flag stand for?",
       options: ["Sacrifice (Orange)", "Peace (White)", "Prosperity (Green)"],
-      answer: ["Sacrifice (Orange)", "Peace (White)", "Prosperity (Green)"],
+      answer: ["Sacrifice (Orange), Peace (White), Prosperity (Green)"],
       explanation: "The colors on the Indian flag represent sacrifice (orange), peace (white), and prosperity (green)."
     },
     {
