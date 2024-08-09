@@ -381,7 +381,12 @@ const Quiz = ({ question }) => (
     <h3>{question.question}</h3>
     <ul>
       {question.options.map((option, index) => (
-        <li key={index}>{option}</li>
+        <li 
+          key={index} 
+          className={option === question.answer ? 'correct-answer' : ''}
+        >
+          {option}
+        </li>
       ))}
     </ul>
     <div className="explanation">

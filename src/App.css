@@ -50,6 +50,18 @@ h2 {
   color: #333;
   margin-bottom: 10px;
 }
+.correct-answer {
+  background-color: #28a745 !important; /* Solid green background */
+  color: black !important; /* Keep the text color black */
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0; /* Space between options */
+  list-style-type: none; /* Remove bullet points */
+  display: block; /* Make it a block-level element */
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Ensure the box takes up the full width of its container */
+}
+
 
 .quiz-question ul {
   list-style-type: none;
